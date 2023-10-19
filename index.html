@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <link
       rel="stylesheet"
@@ -21,10 +22,15 @@
     <header class="page-header">
       <div class="container box-one">
         <nav class="nav">
+         
           <a class="logo-line-header" href="./index.html"
             >Web<span class="studio">Studio</span></a
-          >
-
+          >     
+         <span class="icon-heroicons"> <a class="icon-heroicons-solid_menu" href="" target="_blank" rel="">
+            <svg class="icon-solid_menu" width="24" height="24">
+              <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+            </svg>
+          </a></span>
           <ul class="li-flex">
             <li class="menu">
               <a class="li-class-link current" href="./index.html">Studio</a>
@@ -39,7 +45,7 @@
         </nav>
 
         <address class="class-adress">
-          <ul class="adress-title">
+          <ul class="adress-title li-flex">
             <li class="menu">
               <a class="class-adress-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -475,7 +481,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="model">
         <button type="button" class="modal-button-icon-close-black">
           <svg class="modal-icon-close-black" width="8" height="8">
@@ -547,10 +553,11 @@
               value="true"
               name="user-privacy"
               id="user-privacy"
-              tabindex="0"/>
+              tabindex="0"
+            />
 
             <label class="terms-label" for="user-privacy">
-              <span class="privacy-span" tabindex="0"> 
+              <span class="privacy-span" tabindex="0">
                 <svg class="icon-cneckbox" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg> </span
@@ -559,10 +566,10 @@
               <a class="checkbox-link" href="">Privacy Policy</a>
             </label>
           </div>
-
           <button type="submit" class="modal-window-btn">Send</button>
         </form>
       </div>
     </div>
+    <script src="./js/js.js"></script>
   </body>
 </html>

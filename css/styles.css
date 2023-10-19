@@ -133,7 +133,7 @@ address > ul > li > a {
 
 .container .section-one-efective {
   display: flex;
-  max-width: 496px;
+
   text-align: center;
   padding: 0;
 }
@@ -254,7 +254,7 @@ img {
   justify-content: space-between;
 }
 .container {
-  width: 1158px;
+  max-width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
@@ -638,7 +638,7 @@ img {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: #2E2F42;
+  fill: #2e2f42;
 }
 
 .user-input-comment {
@@ -730,8 +730,7 @@ img {
   color: #4d5ae5;
 }
 
-.icon-cneckbox{
-
+.icon-cneckbox {
 }
 
 /* FOOTER-BUTTON-WRAPER */
@@ -801,3 +800,197 @@ img {
   fill: #fff;
   margin-left: 16px;
 }
+
+/* MEDIA-MODAL */
+/* HEDER-MOBIL-START & CONTAINER */
+@media (max-width: 320px) {
+  .page-header {
+    max-width: 318px;
+    height: auto;
+  }
+  /* .container {
+    width: 318px;
+    height: auto;
+    padding-right: 15px;
+  } */
+  .nav {
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px; 
+    letter-spacing: 0.54px;
+   
+  }
+  .logo-line-header{
+    display: flex;
+    margin: 0;
+  }
+  .li-flex{
+    display: none;
+  }
+  .section-one{
+    background-image:  linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/Dark-bg\ \(1\).jpg);
+  }
+  .icon-heroicons-solid_menu{
+    display: flex;
+    padding-left: 149px;
+    
+  }
+  .icon-heroicons{
+    margin: auto;
+  }
+  /* START CONTAINER TWO */
+  .container-svg-sprite{
+    display: none;
+  }
+  .ul-section-one{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 72px;
+  }
+  .title-h-thry-section-one{
+    display: flex;
+    width: 288px;
+    font-size: 36px;
+    font-weight: 700;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .paragraf-class-section-one{
+   display: flex;
+   text-align: start;
+   gap: 72px;
+   font-size: 16px;
+   font-weight: 500;
+  }
+  .li-section-one{
+  width: auto;
+  }
+ 
+  /* SECTION-OUR-TEEM */
+   .section-thry{
+    max-width: 318px;
+  }
+  .img-title-two{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding-left: 24px;
+    
+  }
+  .img-title{
+    width: auto;
+    margin-right: 0px;
+  }
+  /* SECTION-FORE */
+  .section-four{
+    max-width: 318px;
+   
+  }
+  .li-fore-section{
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    
+   
+  }
+  .user-frendly{
+    width: auto;
+  }
+  .ul-thry{
+    width: 318px;
+   
+  }
+  .title-section-thry{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  /* FOOTER */
+  .footer{
+    max-width: 318px;
+    
+  }
+  .container-footer{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+   
+  }
+  .subscribe-form{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+   
+   
+  }
+  .footer-paragraf-two{
+    text-align: center;
+   
+   
+  }
+  .icon-social-list-footer{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .subscribe-paragraf{
+   
+    margin-top: 72px;
+    margin-left: -60px;
+  }
+  .wraper-logo{
+    margin-bottom: 72px;
+   
+    margin-right: 10px;
+    text-align: inherit;
+  }
+  a.logo-line-footer{
+    text-align: center;
+    margin-left: 76px;
+  }
+  .subscride-button{
+    text-align: center;
+    width: 165px;
+    height: 40px;
+    margin-left: 53px;
+  }
+  .subscribe-input{
+    display: flex;
+    gap: 16px;
+    width: 288px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    opacity: 0.3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    
+  }
+  .container-linc{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-subscribe{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .subscribe-label{
+   max-width: 318px;
+   margin: 5px;
+  }
+}
+
