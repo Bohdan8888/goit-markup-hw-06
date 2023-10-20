@@ -1193,8 +1193,8 @@ text-transform: capitalize;
      background: var(--GREY, rgba(46, 47, 66, 0.70));
      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg\ \(2\)\ \(1\).jpg);
     background-repeat:no-repeat ;
-    padding: 92px;
-    width: 768px;
+   
+   
 
    }
    
@@ -1239,12 +1239,7 @@ text-transform: capitalize;
    .section-two{
      padding: 96px 0;
    }
-   .ul-section-one{
-     display: grid;
-       grid-template-columns: 1fr 1fr;
-       gap: 72px 24px;
-       
-   }
+   
    .li-section-one{
      max-width: 356px;
    }
@@ -1265,31 +1260,17 @@ text-transform: capitalize;
    text-transform: capitalize;
    }
    /* SECTION-THRY */
-   .img-title-two{
-     display: grid;
-       grid-template-columns: 1fr 1fr;
-       gap: 72px 24px;
-       margin-right: 108px;
-       margin-left: 108px;
+   
    }
    /* SECTION-FOUR */
-   .ul-thry{
-     display: grid;
-       grid-template-columns: 1fr 1fr;
-       gap: 72px 24px;
-   }
+   
    .li-fore-section{
      max-width: 356px;
      margin: 0 auto;
      width: 100%;
    }
    /* FUTER */
-   .container-footer{
-     flex-direction: row;
-       flex-wrap: wrap;
-       max-width: 580px;
-       gap: 72px 24px;
-   }
+   
    .wraper-logo{
      margin: 0;
    }
@@ -1299,7 +1280,7 @@ text-transform: capitalize;
    .footer-paragraf-two{
      text-align: left;
    }
-   .footer-subscribe{
+   /* .footer-subscribe{
      margin-left: 0;
    }
    .subscribe-paragraf{
@@ -1307,12 +1288,145 @@ text-transform: capitalize;
    }
    .subscribe-form{
      margin-left: 0;
-   }
-   }
+   } */
+   
    @media (max-width:767px){
      .backdrop{
          width:      288px;
      }
 }
+/* START-MEDIA-320 */
+@media (max-width: 320px){
+  .container{
+    max-width: 320px;
+    width: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .li-flex{
+    display: none;
+  }
+  .section-one-efective{
+    max-width: 320px;
+    margin-left: 0;
+   
+   
+  }
+  .section-one {
+    background: var(--GREY, rgba(46, 47, 66, 0.70));
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg\ \(1\).jpg);
+   background-repeat:no-repeat ;
+   padding-bottom: 72px;
+    
+    max-width: 320px;
+    padding-top: 72px;
+  
+
+  }
+  .title-one{
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    height: 160px;
+    width: 288px;
+}
+.type-button{
+  margin-bottom: 0;
+  
+}
+.ul-section-one{
+  flex-direction: column;
+  gap: 72px;
+}
+.title-h-thry-section-one{
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.paragraf-class-section-one{ 
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; 
+  letter-spacing: 0.32px;
+}
+.img-title-two{
+  flex-direction: column;
+}
+.title-section-thry{
+  margin-top: 192px;
+  margin-bottom: 72px;
+}
+.ul-thry{
+  flex-direction: column;
+  width: 100%;
+}
+.user-frendly{
+ 
+}
+.container-footer{
+  flex-direction: column;
+  justify-content: center;
+  gap: 72px;
+}
+.logo-line-footer{
+  display: block;
+    text-align: center;
+    margin: 0 auto 17px;
+    font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+.container-linc{
+  margin: 0 auto;
+}
+.paragraf-footer{
+  margin: 0;
+  text-align: center;
+}
+.footer-paragraf-two{
+  text-align: center;
+}
+.footer-subscribe{
+  margin: 0 auto;
+  text-align: center;
+}
+.subscribe-form{
+  display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+}
+.subscribe-input{
+  width: 288px;
+height: 40px;
+border-radius: 4px;
+border: 1px solid var(--WHITE, #FFF);
+opacity: 0.3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+}
+}
+
+/* .li-fore-section{
+  width: 288px;
+  height: 280px;
+} */
+  
+
 
 
