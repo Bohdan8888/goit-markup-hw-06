@@ -1,17 +1,28 @@
-document.getElementById("is-open-modal").addEventListener("click",function () {
-    document.getElementById("modal-is-open").classList.add("is-open")
+// const burger = document.querySelector('#burger');
+// const menu = document.querySelector('#menu');
+
+// function openMenu() {
+//     mob-menu.
+//     mob-menu
+//   style.display = 'block';
+//   }
+//   function closeMenu() {
+//     mobmenu.style.display = 'none';
+//   }
+
+// burger.addEventListener('click', ()=> {
+//     if (menu.classList.contains('is-open') == true){
+//         menu.classList.remove('is-open');
+//     } else {
+//         menu.classList.add('is-open');
+//     }
+// });
+
+document.querySelector('#burger').addEventListener('click',function () {
+    document.querySelector('#menu').classList.add('is-open')
 })
 
-document.getElementById("close-modal-window").addEventListener("click",function () {
-    document.getElementById("modal-is-open").classList.remove("is-open")
+document.querySelector('#clouseButtom').addEventListener("click",function () {
+    document.querySelector('#menu').classList.remove("is-open")
 })
 
-// Burger Menu - Open / Close
-
-document.getElementById("is-open-burger").addEventListener("click",function () {
-    document.getElementById("burger-is-open").classList.add("is-open")
-})
-
-document.getElementById("close-burger-menu").addEventListener("click",function () {
-    document.getElementById("burger-is-open").classList.remove("is-open")
-})
