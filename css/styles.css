@@ -4,7 +4,7 @@
 /* HEDER-MOBIL-START & CONTAINER START */
 
 /* START-MEDIA-320 */
-@media  (min-width: 320px)
+@media  (min-width: 100px)
 {
   p,
  h1,
@@ -784,6 +784,7 @@ img {
  padding-bottom: 72px;
   
   max-width: 320px;
+  min-width: 320px;
   padding-top: 72px;
 
 
@@ -1327,6 +1328,7 @@ gap: 40px;
  .user-frendly {
    position: relative;
    overflow: hidden;
+   width: auto;
  }
  
  .paragraf-hiden {
@@ -1868,6 +1870,7 @@ gap: 40px;
    background-size: cover;
    background-position: center;
    max-width: 768px;
+   min-width: 768px;
    padding: 112px 0;
    
 
