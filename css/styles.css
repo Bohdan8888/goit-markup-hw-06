@@ -1290,6 +1290,7 @@ gap: 40px;
  
  .img-title-two {
    display: flex;
+   flex-wrap: wrap;
    justify-content: center;
    gap: 24px;
  }
@@ -2326,6 +2327,7 @@ gap: 40px;
  
  .ul-section-one {
    display: flex;
+   flex-direction: row;
    gap: 24px;
  }
  .li-box-one {
@@ -2334,6 +2336,7 @@ gap: 40px;
  
  .img-title-two {
    display: flex;
+   flex-direction: row;
    justify-content: center;
    gap: 24px;
  }
@@ -2395,7 +2398,7 @@ gap: 40px;
  }
  
  .li-fore-section {
-   /* width: calc((100% - 48px) / 3); */
+   width: calc((100% - 48px) / 3);
    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  
@@ -2474,6 +2477,7 @@ gap: 40px;
    letter-spacing: 0.02em;
    color: #ffffff;
    margin-bottom: 16px;
+   text-align: left;
  }
  
  .container-svg-sprite {
@@ -2490,9 +2494,10 @@ gap: 40px;
  .container-footer {
    display: flex;
    align-items: baseline;
+   flex-direction: row;
  }
  .wraper-logo {
-   margin-right: 120px;
+   margin-right: 0;
  }
  .footer
    > .container-footer
@@ -2756,6 +2761,7 @@ gap: 40px;
  
  .subscribe-paragraf {
    font-size: 16px;
+   text-align: left;
    line-height: 1.5;
    letter-spacing: 0.02em;
    font-weight: 500;
@@ -2765,9 +2771,9 @@ gap: 40px;
  
  .subscribe-form {
    display: flex;
+   flex-direction: row;
    gap: 24px;
-   margin-left: -14px;
-   margin-right: 18px;
+  
  }
  
  .subscribe-input {
@@ -2784,6 +2790,7 @@ gap: 40px;
    background-color: transparent;
    border: 1px solid #ffffff;
    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+   
  }
  
  .subscribe-input::placeholder {
@@ -2806,6 +2813,7 @@ gap: 40px;
    cursor: pointer;
    min-width: 165px;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   margin-left: 0;
  }
  
  .subscride-button:hover,
@@ -2819,8 +2827,8 @@ gap: 40px;
  }
 }
    
-@media (min-resolution: 96dpi) {
-  .solution-business {
+ /* @media (min-resolution: 96dpi) {
+  .section-one {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -2830,14 +2838,14 @@ gap: 40px;
 }
 
 @media (min-resolution: 192dpi) {
-  .solution-business {
+  .section-one {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/people-officex2.jpg");
+      url("../images/Dark-bg\ \(4\).jpg");
   }
-}
-  
+} */
+ 
 
 
