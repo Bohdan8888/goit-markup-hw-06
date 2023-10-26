@@ -26,3 +26,11 @@ document.querySelector('#clouseButtom').addEventListener("click",function () {
     document.querySelector('#menu').classList.remove("is-open")
 })
 
+
+document.querySelector('#open-bacdroup').addEventListener('click',function () {
+    document.querySelector('#backdrop').classList.add('is-open')
+})
+
+document.querySelector('#clouse-backdroup').addEventListener("click",function () {
+    document.querySelector('#backdrop').classList.remove("is-open")
+})
