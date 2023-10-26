@@ -2374,12 +2374,16 @@ gap: 40px;
    border-top: none;
    margin: 0;
  }
- 
- .user-frendly {
+ ..user-frendly{
+  position: relative;
+  overflow: hidden;
+  width: auto;
+ }
+ /* .user-frendly {
    position: relative;
    overflow: hidden;
    width: auto;
- }
+ } */
  
  .paragraf-hiden {
    position: absolute;
