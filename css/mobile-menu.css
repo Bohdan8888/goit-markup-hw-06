@@ -112,3 +112,11 @@ letter-spacing: 0.4px;
   background-color: #404bbf;
 }
              /* MOBILE MENU */
+
+             /* MOBILE-ADAPTIV-TABLET */
+@media (min-width: 768px) {
+.mobile-menu{
+  display: none;
+}
+  
+}             
