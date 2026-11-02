@@ -7,8 +7,8 @@
 .header-logo {
   color: var(--color-heading);
 
-  padding: 16px;
-  margin: 0 auto;
+ 
+  margin: 0;
 }
 
 
@@ -104,29 +104,34 @@ flex-direction: column;
 .nav-link.active {
   color: #404bbf;
 }
- 
-@media (min-width: 768px) {
-  .navigation {
-    display: block;
-    margin-left: 120px;
-  }
 
-  .header-address {
-    display: block;
- margin-left: 129px;
-  }
-  .contact-list {
-  flex-direction: column;
-  gap: 12px;
+.container-logo-with-button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+padding: 16px;
+flex-grow: 1;
 }
 
-.contact-link {
-  font-size: 12px;
-  line-height: 1.17;
+.menu-toggle{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
   padding: 0;
+  border: none;
 }
+.svg-burger{
+   width: 16.8px;
+  height: 14.4px;
+    fill: var(--NAVY-BLUE, #2E2F42);
+   background-color: inherit;
+   border: none;
 }
-.menu-toggle {
+
+      /* menu-toggle-for-future */
+
+
+/* .menu-toggle {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -151,28 +156,68 @@ flex-direction: column;
 .menu-toggle:focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: 4px;
+} */
+
+      /* menu-toggle-for-future */
+
+ 
+@media (min-width: 768px) {
+
+.container-logo-with-button {
+  padding: 0;
+  flex-grow: 0;
 }
 
-@media (min-width: 768px) {
+
+.contact-link{
+letter-spacing: 0.04em;
+}
+  .navigation {
+    display: block;
+    margin-left: 120px;
+  }
+
+  .header-address {
+    display: block;
+
+
+  }
+  .contact-list {
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-link {
+  font-size: 12px;
+  line-height: 1.17;
+  padding: 0;
+}
   .menu-toggle {
     display: none;
   }
 }
 
 
+
+
+
 @media (min-width: 1158px) {
   .navigation {
+    display: flex;
     margin-left: 76px;
   }
   .header-address{
     display: flex;
+    margin-left: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .contact-list {
+
   flex-direction: row;
   gap: 40px;
+
 }
 
 .contact-link {

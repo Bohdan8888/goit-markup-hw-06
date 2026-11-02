@@ -18,12 +18,10 @@
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
    .section {
     padding: 96px 0;
-  }
-
-
-  }
+  } 
 }
 
 @media (min-width: 1158px) {
@@ -34,7 +32,7 @@
     .section {
     padding: 120px 0;
   }
-
+  
   }
 
 

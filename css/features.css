@@ -30,7 +30,7 @@
 flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 24px;
+  gap: 72px;
   align-self: stretch; 
 
 } 
@@ -46,37 +46,41 @@ flex-direction: column;
   .features-list{
  display: grid;
  grid-template-columns: repeat(2, 1fr);
-  gap: 24px 72px;
+  gap: 72px 24px ;
   justify-content: center;
   align-items: center;
 
 
   }
+.feature-text{
+  font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
+  .feature-title{
+  font-size: 36px;
+  font-weight: 700;
+}
   .feature-item{
 display: flex;
 flex-direction: column;
+
   }
 }
 
 
+
+          /* ADAPTIVE-DESCK-TOP */
+  
+          
 @media (min-width: 1158px) {
-.features {
+   
+  .features {
   background-color: var(--color-white);
 }
-
-.features-list {
-  list-style: none;
-}
-
-.feature-title {
-  color: var(--color-heading);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
- 
-}
-
+  
 .feature-text {
   color: var(--color-text);
   font-size: 16px;
@@ -85,14 +89,8 @@ flex-direction: column;
   letter-spacing: 0.02em;
   margin-top: 8px;
 }
-.features-list {
-  display: flex;
 
-  justify-content: center;
-  align-items: flex-start;
-  gap: 24px;
-  align-self: stretch;
-}
+
 .icon-box{
     display: flex;
   align-items: center;
@@ -109,43 +107,38 @@ margin-bottom: 8px;
   visibility: visible;
 }
 
-}
-  
 
-          /* ADAPTIVE-DESCK-TOP */
-  
-          
-@media (min-width: 1158px) {
-            
-
-.icon-box{
+.features-list {
     display: flex;
-  align-items: center;
-  justify-content: center;
-width: 264px;
-height: 112px;
-border-radius: 4px;
-border: 1px solid var(--LIGHT-SLATE, #8E8F99);
-background: var(--CLOUD, #F4F4FD);
-padding: 24px 100px;
-margin-bottom: 8px;
-}  
+    flex-direction: row;
+    gap: 24px;
+     list-style: none;
+  }
 
+  .feature-item {
+    flex: 0 0 calc((100% - 72px) / 4);
+  }
 
   .icon {
   width: 64px;
   height: 64px;
 }
 .icon-box{
-  display: block;
+
   position: relative;
 }
 .feature-item{
 display: flex;
  
 }
-.features-list {
-display: flex;
-flex-direction: row;
+
+.feature-title {
+  color: var(--color-heading);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+ 
 }
+
 }

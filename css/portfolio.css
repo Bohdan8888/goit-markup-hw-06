@@ -11,7 +11,7 @@
     row-gap: 72px;
   }
   .portfolio-card {
-    width: calc((100% - 24px) / 2);
+    width: calc((100% - 48px) / 2);
   }
 }
 
