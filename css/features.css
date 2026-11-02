@@ -35,24 +35,7 @@ flex-direction: column;
 
 } 
 
-/* .icon-box{
-    display: flex;
-  align-items: center;
-  justify-content: center;
-width: 264px;
-height: 112px;
-border-radius: 4px;
-border: 1px solid var(--LIGHT-SLATE, #8E8F99);
-background: var(--CLOUD, #F4F4FD);
-padding: 24px 100px;
-margin-bottom: 8px;
-}  */
 
-
- /* .icon {
-  width: 64px;
-  height: 64px;
-} */
 
 @media (min-width: 768px) {
   .icon-box{
@@ -128,3 +111,41 @@ margin-bottom: 8px;
 
 }
   
+
+          /* ADAPTIVE-DESCK-TOP */
+  
+          
+@media (min-width: 1158px) {
+            
+
+.icon-box{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+width: 264px;
+height: 112px;
+border-radius: 4px;
+border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+background: var(--CLOUD, #F4F4FD);
+padding: 24px 100px;
+margin-bottom: 8px;
+}  
+
+
+  .icon {
+  width: 64px;
+  height: 64px;
+}
+.icon-box{
+  display: block;
+  position: relative;
+}
+.feature-item{
+display: flex;
+ 
+}
+.features-list {
+display: flex;
+flex-direction: row;
+}
+}
