@@ -98,3 +98,14 @@
 .social-link:focus {
   background-color: #404bbf;
 }
+
+
+@media (min-width: 768px) {
+   .team-list {
+    display: grid;
+    grid-template-columns: repeat(2, 264px);
+    column-gap: 24px;
+    row-gap: 64px;
+    justify-content: center;
+  }
+}

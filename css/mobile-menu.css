@@ -1,0 +1,114 @@
+     /* MOBILE MENU */
+
+
+.mobile-menu{
+  position: absolute;
+  display: flex;
+width: 320px;
+height: 640px;
+padding: 72px 16px 40px 16px;
+flex-direction: column;
+visibility: hidden;
+opacity: 0;
+align-items: flex-start;
+background: var(--WHITE, #FFF);
+}
+.mobil-menu-container{
+  display: flex;
+  flex-direction: column;
+
+
+}
+.mobile-menu.is-open{
+     opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+.menu-clouse{
+ position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  background-color: #e7e9fc;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.link-close:hover .button-close,
+.link-close:focus .button-close {
+  fill: #fff;
+}
+.mobil-menu-container-top{
+  display: flex;
+  flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+   gap: 168px;
+}
+
+.menu-link-under{
+  margin-top: 48px;
+}
+.navigation-list-mobile{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+}
+.nav-link-mobile{
+
+  font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+}
+.contact-list-mobile{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+  font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+letter-spacing: 0.4px;
+}
+
+.social-link-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  color: #f4f4fd;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-icons-menu{
+  display: flex;
+  margin-top: 8px;
+  gap: 24px;
+  justify-content: center;
+}
+
+.link-svg-menu{
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.social-link-menu:hover,
+.social-link-menu:focus {
+  background-color: #404bbf;
+}
+             /* MOBILE MENU */

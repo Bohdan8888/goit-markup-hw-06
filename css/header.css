@@ -1,12 +1,16 @@
-.page-header {
+﻿.page-header {
   background-color: var(--color-white);
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  position: relative;
 }
 
 .header-logo {
   color: var(--color-heading);
-  padding: 24px 0;
+
+  padding: 16px;
+  margin: 0 auto;
 }
+
 
 .nav-link {
   display: block;
@@ -32,6 +36,7 @@ flex-direction: column;
 .header-address {
   font-style: normal;
   margin-left: auto;
+  display: none;
 }
 
 .contact-link {
@@ -55,7 +60,7 @@ flex-direction: column;
 }
 .contact-list {
   display: flex;
-  gap: 40px;
+
 }
 
 .header-container {
@@ -66,6 +71,7 @@ flex-direction: column;
 
 .navigation{
   margin-left: 76px;
+  display: none;
 }
 
 .nav-link:hover,
@@ -97,4 +103,85 @@ flex-direction: column;
 
 .nav-link.active {
   color: #404bbf;
+}
+ 
+@media (min-width: 768px) {
+  .navigation {
+    display: block;
+    margin-left: 120px;
+  }
+
+  .header-address {
+    display: block;
+ margin-left: 129px;
+  }
+  .contact-list {
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-link {
+  font-size: 12px;
+  line-height: 1.17;
+  padding: 0;
+}
+}
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: var(--color-heading);
+  cursor: pointer;
+}
+
+.menu-toggle-line {
+  width: 18px;
+  height: 2px;
+  background-color: currentColor;
+}
+
+.menu-toggle:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 4px;
+}
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
+
+@media (min-width: 1158px) {
+  .navigation {
+    margin-left: 76px;
+  }
+  .header-address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-list {
+  flex-direction: row;
+  gap: 40px;
+}
+
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 24px 0;
+}
+.header-logo {
+  color: var(--color-heading);
+  padding: 24px 0;
+}
 }
