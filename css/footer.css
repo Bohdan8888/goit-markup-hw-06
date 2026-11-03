@@ -2,10 +2,12 @@
 
 .page-footer {
   background-color: var(--color-heading);
-  padding: 100px 0;
+  padding: 96px 0;
 }
 
 .footer-logo {
+  display: block;
+  margin: 0 auto;
   color: var(--color-light);
 }
 
@@ -21,7 +23,7 @@
 .footer-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   gap: 16px;
  
 }
@@ -66,12 +68,12 @@ margin-bottom: 72px;
 
 .footer-loyaut {
  display: flex;
-padding: 96px 0;
+
 flex-direction: column;
 justify-content: center;
 align-items: center;
 align-self: stretch;
-  padding: 0 15px;
+
 }
 
 .social-link-footer .social-link {
@@ -116,12 +118,12 @@ align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .input-footer {
   box-sizing: border-box;
-  width: 264px;
+  min-width:  264px;
   height: 40px;
   padding: 8px 16px;
   border: 1px solid var(--color-white);
@@ -273,7 +275,7 @@ align-self: stretch;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
-  width: 100%;
+  width: 1158px;
   height: 72px;
   margin-right: 120px;
 }
