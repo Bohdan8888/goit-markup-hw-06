@@ -9,6 +9,7 @@
 
  
   margin: 0;
+  padding: 16px 0;
 }
 
 
@@ -106,17 +107,11 @@ flex-direction: column;
   color: #404bbf;
 }
 
-.container-logo-with-button{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
- padding-top: 16px;
- padding-bottom: 16px;
-flex-grow: 1;
-}
+
 
 .menu-toggle{
   display: flex;
+  margin-left: auto;
   align-items: center;
   text-decoration: none;
   padding: 0;
@@ -166,9 +161,8 @@ flex-grow: 1;
  
 @media (min-width: 768px) {
 
-.container-logo-with-button {
-  padding: 0;
-  flex-grow: 0;
+.header-logo {
+  padding: 24px 0;
 }
 
 

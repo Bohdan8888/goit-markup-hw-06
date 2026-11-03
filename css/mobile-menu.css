@@ -74,7 +74,7 @@ align-items: flex-start;
 gap: 40px;
 }
 .nav-link-mobile{
-
+color: #2e2f42;
   font-family: Roboto;
 font-size: 36px;
 font-style: normal;
@@ -126,6 +126,9 @@ letter-spacing: 0.4px;
 }
 .link-color-mobile{
 color: #4d5ae5;
+}
+.header-address-mobile{
+  font-style: normal;
 }
              /* MOBILE MENU */
 

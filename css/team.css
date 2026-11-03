@@ -34,6 +34,8 @@
 }
 
 .team-card {
+  width: 100%;
+  max-width: 264px;
   background-color: var(--color-white);
   text-align: center;
   border-radius: 0 0 4px 4px;

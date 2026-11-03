@@ -96,6 +96,7 @@ align-self: stretch;
 
 
 .footersubscrible {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,6 +116,7 @@ align-self: stretch;
 }
 
 .email-subscrible {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -123,7 +125,8 @@ align-self: stretch;
 
 .input-footer {
   box-sizing: border-box;
-  min-width:  264px;
+  width: 100%;
+  min-width: 0;
   height: 40px;
   padding: 8px 16px;
   border: 1px solid var(--color-white);
@@ -215,6 +218,10 @@ align-self: stretch;
     align-items: flex-start;
   }
 
+  .input-footer {
+    width: 264px;
+  }
+
   .input-footer,
   .button-footer {
     flex-shrink: 0;
@@ -225,6 +232,8 @@ align-self: stretch;
     gap: 24px;
   }
 .social-link-footer{
+  margin-top: 0;
+  margin-bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -238,6 +247,10 @@ align-self: stretch;
   align-items: flex-start;
 
 }
+.footer-logo {
+  margin: 0;
+}
+
 .text-subscribe{
   display: block;
   justify-content: flex-start;
@@ -275,8 +288,8 @@ align-self: stretch;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
-  width: 1158px;
-  height: 72px;
+  width: auto;
+  flex: 0 0 264px;
   margin-right: 120px;
 }
 
@@ -286,6 +299,8 @@ align-self: stretch;
   align-items: flex-start;
   gap: 16px;
   margin-right: 83px;
+  width: 208px;
+  flex-shrink: 0;
 }
 
 .paragraf-footer {
@@ -350,6 +365,8 @@ flex-wrap: nowrap;
   flex-direction: column;
   gap: 16px;
   margin-left: auto;
+  width: auto;
+  flex-shrink: 0;
 }
 
 .text-subscribe {
