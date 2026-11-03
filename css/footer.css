@@ -194,7 +194,6 @@ align-self: stretch;
  gap: 72px 24px;
  flex-direction: row;
 max-width: 584px;
-padding: 0 16px;
 
 align-content: flex-start;
 
@@ -338,7 +337,7 @@ flex-direction: row;
 gap:0px;
 flex-wrap: nowrap;
   max-width: 1158px;
-  padding: 0 15px;
+
 }
 
 .social-link-footer .social-link {
